@@ -1,10 +1,25 @@
 {
   "expo": {
-    "name": "spotify-clone",
+    "name": "SpotifyClone",
     "slug": "spotify-clone",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+
+    "assetBundlePatterns": ["**/*"],
+
+    "android": {
+      "package": "com.linsthi.spotify-clone",
+      "adaptativeIcon": {
+        "foregroundImage": "./assets/adaptative-icon.png",
+        "backgroundColor": "#121212"
+      }
+    }
   }
 }
