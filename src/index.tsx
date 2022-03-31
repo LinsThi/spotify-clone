@@ -1,10 +1,15 @@
+import { useFonts, Roboto_700Bold } from '@expo-google-fonts/roboto';
+import AppLoading from 'expo-app-loading';
 import React from 'react';
-import { Text, View } from 'react-native';
+
+import { RoutesApp } from './shared/routes';
 
 export default function App() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Hello !</Text>
-    </View>
-  );
+  const [fontsloaded] = useFonts({ Roboto_700Bold });
+
+  if (!fontsloaded) {
+    return <AppLoading />;
+  }
+
+  return <RoutesApp />;
 }
