@@ -16,7 +16,7 @@
 
     "android": {
       "package": "com.linsthi.spotify-clone",
-      "adaptativeIcon": {
+      "adaptiveIcon": {
         "foregroundImage": "./assets/adaptative-icon.png",
         "backgroundColor": "#121212"
       }
