@@ -3,14 +3,18 @@ import 'styled-components';
 type ColorsProps = {
   BLACK: string;
   DARK_PINK: string;
+  BLUE: string;
   DARK_BLUE: string;
   LIGHT_BLUE: string;
+  LIGHT_GRAY: string;
   DARK_GRAY: string;
   WHITE: string;
 };
 
 type FontSizesProps = {
   TEXT_PERIODE_SIZE: number;
+  TEXT_NAME_CATEGORY: number;
+  TEXT_NAME_ALBUM: number;
   LABEL_TAB_SIZE: number;
 };
 
