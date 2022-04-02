@@ -1,4 +1,4 @@
-export const albunsPlaylist = [
+export default [
   {
     id: 1,
     title: 'As músicas que você mais ouviu em 2021',
