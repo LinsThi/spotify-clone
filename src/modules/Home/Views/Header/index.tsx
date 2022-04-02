@@ -34,22 +34,22 @@ export function Header() {
       locations={[0.1, 0.96]}
     >
       <Sty.Container>
-        <Sty.TextPeriode style={{ color: '#fff' }}>
+        <Sty.TextPeriode style={{ color: Colors.WHITE }}>
           {currentPeriode}
         </Sty.TextPeriode>
 
         <Sty.ContainerButtons>
           <Sty.Button>
-            <Feather name="bell" size={33} color="#fff" />
+            <Feather name="bell" size={33} color={Colors.WHITE} />
             <Sty.NotificationCircle />
           </Sty.Button>
 
           <Sty.ButtonCenter>
-            <AntDesign name="clockcircleo" size={33} color="#fff" />
+            <AntDesign name="clockcircleo" size={33} color={Colors.WHITE} />
           </Sty.ButtonCenter>
 
           <Sty.Button>
-            <Octicons name="gear" size={33} color="#fff" />
+            <Octicons name="gear" size={33} color={Colors.WHITE} />
           </Sty.Button>
         </Sty.ContainerButtons>
       </Sty.Container>

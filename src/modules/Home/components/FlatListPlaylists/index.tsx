@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 
-import { albunsPlaylist } from '../../mock/mock';
+import albunsPlaylist from '../../mock/albunsPlaylist';
 
 import * as Sty from './styles';
 

@@ -19,7 +19,7 @@ export const NotificationCircle = styled.View`
   width: 10px;
   height: 10px;
 
-  background-color: red;
+  background-color: ${({ theme }) => theme.Colors.BLUE};
   border-radius: 10px;
   top: 0px;
   left: 4px;
