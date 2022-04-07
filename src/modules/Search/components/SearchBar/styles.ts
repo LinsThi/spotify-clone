@@ -6,7 +6,7 @@ export const Container = styled.View`
   flex-direction: row;
   padding: 10px 10px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 `;
 
 export const SearchInput = styled.TextInput`

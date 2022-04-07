@@ -57,6 +57,34 @@ export default [
           'https://cache.boston.com/resize/bonzai-fba/Globe_Photo/2011/04/14/1302796985_4480/539w.jpg',
         backgroundColor: '#8c67ac',
       },
+      {
+        id: 3,
+        nameAlbum: 'Album',
+        imageUri:
+          'https://cache.boston.com/resize/bonzai-fba/Globe_Photo/2011/04/14/1302796985_4480/539w.jpg',
+        backgroundColor: '#8c67ac',
+      },
+      {
+        id: 4,
+        nameAlbum: 'Album',
+        imageUri:
+          'https://cdn6.f-cdn.com/contestentries/1485199/27006121/5ca3e39ced7f1_thumb900.jpg',
+        backgroundColor: '#b95d06',
+      },
+      {
+        id: 5,
+        nameAlbum: 'Album',
+        imageUri:
+          'https://cdn6.f-cdn.com/contestentries/1485199/27006121/5ca3e39ced7f1_thumb900.jpg',
+        backgroundColor: '#b95d06',
+      },
+      {
+        id: 6,
+        nameAlbum: 'Album',
+        imageUri:
+          'https://cache.boston.com/resize/bonzai-fba/Globe_Photo/2011/04/14/1302796985_4480/539w.jpg',
+        backgroundColor: '#8c67ac',
+      },
     ],
   },
   {
