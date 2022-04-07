@@ -12,6 +12,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { ThemeProvider } from 'styled-components/native';
 
 import { HomeScreen } from '~/modules/Home/Views/HomeScreen';
+import { SearchScreen } from '~/modules/Search/Views/SearchScreen';
 import theme from '~/shared/theme';
 
 import {
@@ -39,7 +40,7 @@ export function RoutesApp() {
               },
               tabBarStyle: {
                 position: 'absolute',
-                height: 85,
+                height: theme.Sizes.BOTTOM_TAB_MENU_SIZE,
                 paddingTop: 15,
                 backgroundColor: theme.Colors.BLACK,
                 borderTopColor: 'transparent',
@@ -57,7 +58,7 @@ export function RoutesApp() {
               }}
             />
             <Tabs.Screen
-              component={HomeScreen}
+              component={SearchScreen}
               name={SEARCH_SCREEN}
               options={{
                 tabBarIcon: ({ color }) => (
