@@ -1,8 +1,8 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 
-import { SearchButtonScreen } from '~/modules/Search/Views/SearchButtonScreen';
 import { SearchScreen } from '~/modules/Search/Views/SearchScreen';
+import { SearchSongsScreen } from '~/modules/Search/Views/SearchSongsScreen';
 import {
   SEARCH_BUTTON_SCREEN,
   SEARCH_SCREEN,
@@ -16,7 +16,7 @@ export function SearchScreenStack() {
       <StackSearchScreen.Screen name={SEARCH_SCREEN} component={SearchScreen} />
       <StackSearchScreen.Screen
         name={SEARCH_BUTTON_SCREEN}
-        component={SearchButtonScreen}
+        component={SearchSongsScreen}
       />
     </StackSearchScreen.Navigator>
   );
