@@ -4,8 +4,8 @@ type ContainerAlbumProps = {
   backgroundColor: string;
 };
 
-export const ContainerAlbum = styled.View<ContainerAlbumProps>`
-  width: 180px;
+export const ContainerAlbum = styled.TouchableOpacity<ContainerAlbumProps>`
+  width: 175px;
   height: 120px;
   background-color: ${({ backgroundColor }) => backgroundColor};
   margin-bottom: 20px;
@@ -42,7 +42,7 @@ export const ImageAlbum = styled.Image`
 `;
 
 export const FlatListCategory = styled.FlatList`
-  margin-bottom: ${({ theme }) => theme.Sizes.BOTTOM_TAB_MENU_SIZE + 130}px;
+  margin-bottom: ${({ theme }) => theme.Sizes.BOTTOM_TAB_MENU_SIZE}px;
 `;
 
 export const FlatListAlbuns = styled.FlatList``;

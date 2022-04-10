@@ -1,13 +1,16 @@
 export default {
   Colors: {
     BLACK: '#121212',
+    BLACK_2: '#282828',
     DARK_PINK: '#C31f8A',
     DARK_BLUE: '#2E0E8C',
     BLUE: '#4587D3',
     LIGHT_BLUE: '#44566E',
     LIGHT_GRAY: '#838383',
+    LIGHT_GRAY_2: '#B0B0B0',
     GRAY: '#646464',
     DARK_GRAY: '#313439',
+    DARK_GRAY_2: '#535353',
     WHITE: '#FFFFFF',
   },
 
@@ -17,6 +20,9 @@ export default {
     TEXT_NAME_ALBUM: 20,
     LABEL_TAB_SIZE: 15,
     PLACEHOLDER_SEARCH_SIZE: 20,
+    TEXT_BUTTON_SEARCH: 20,
+    TEXT_SEARCH_INFO: 20,
+    TEXT_SEARCH_INFO_2: 18,
   },
 
   Sizes: {

@@ -23,7 +23,7 @@ export function FlatListAlbuns() {
           extraData={item.albuns}
           keyExtractor={(_, index) => index.toString()}
           renderItem={renderAlbuns}
-          horizontal
+          numColumns={2}
         />
       </Sty.ContainerCategory>
     );

@@ -7,14 +7,16 @@ import * as Sty from './styles';
 
 export function SearchScreen() {
   return (
-    <Sty.Container>
+    <Sty.Container stickyHeaderIndices={[1]}>
+      <Sty.TitlePage>Buscar</Sty.TitlePage>
+
       <Sty.ContainerSearch>
-        <Sty.TitlePage>Buscar</Sty.TitlePage>
-
         <SearchBar />
-
-        <FlatListAlbuns />
       </Sty.ContainerSearch>
+
+      <Sty.ContainerFlatlist>
+        <FlatListAlbuns />
+      </Sty.ContainerFlatlist>
     </Sty.Container>
   );
 }
