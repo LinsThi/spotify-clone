@@ -9,9 +9,11 @@ type ColorsProps = {
   LIGHT_BLUE: string;
   LIGHT_GRAY: string;
   LIGHT_GRAY_2: string;
+  LIGHT_GRAY_3: string;
   GRAY: string;
   DARK_GRAY: string;
   DARK_GRAY_2: string;
+  DARK_GRAY_3: string;
   WHITE: string;
 };
 
