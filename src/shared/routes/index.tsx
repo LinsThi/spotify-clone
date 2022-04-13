@@ -13,6 +13,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { ThemeProvider } from 'styled-components/native';
 
 import { HomeScreen } from '~/modules/Home/Views/HomeScreen';
+import { LibraryScreen } from '~/modules/Library/Views/LibraryScreen';
 import theme from '~/shared/theme';
 
 import {
@@ -73,7 +74,7 @@ export function RoutesApp() {
                 }}
               />
               <Tabs.Screen
-                component={HomeScreen}
+                component={LibraryScreen}
                 name={LIBRARY_SCREEN}
                 options={{
                   tabBarIcon: ({ color }) => (
