@@ -2,6 +2,8 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React, { useCallback } from 'react';
 
 import playlists from '../../mock/playlists';
+import { ListFooterComponent } from '../ListFooterComponent';
+import { ListHeaderComponent } from '../ListHeaderComponent';
 
 import * as Sty from './styles';
 
@@ -33,6 +35,8 @@ export function FlatListLibraryPlaylists() {
       extraData={playlists}
       keyExtractor={(_, index) => index.toString()}
       renderItem={renderPlaylists}
+      ListHeaderComponent={() => <ListHeaderComponent />}
+      ListFooterComponent={() => <ListFooterComponent />}
     />
   );
 }
