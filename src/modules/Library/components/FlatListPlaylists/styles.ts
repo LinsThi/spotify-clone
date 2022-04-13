@@ -19,7 +19,7 @@ export const IconView = styled.View`
 `;
 
 export const NamePlaylist = styled.Text`
-  color: ${({ isFixed, theme }) => (isFixed ? '#30ba61' : theme.Colors.WHITE)};
+  color: ${({ theme }) => theme.Colors.WHITE};
   font-size: ${({ theme }) => theme.FontSizes.TEXT_SEARCH_INFO}px;
 `;
 
@@ -29,5 +29,5 @@ export const InfoPlaylist = styled.Text`
 `;
 
 export const FlatList = styled.FlatList`
-  margin: 10px 10px;
+  margin: 10px 10px 100px;
 `;
