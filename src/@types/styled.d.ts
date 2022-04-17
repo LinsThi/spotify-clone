@@ -11,6 +11,7 @@ type ColorsProps = {
   LIGHT_GRAY_2: string;
   LIGHT_GRAY_3: string;
   GRAY: string;
+  GREEN: string;
   DARK_GRAY: string;
   DARK_GRAY_2: string;
   DARK_GRAY_3: string;
