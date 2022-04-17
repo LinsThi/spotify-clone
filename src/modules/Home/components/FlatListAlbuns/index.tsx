@@ -1,15 +1,21 @@
+import { useNavigation } from '@react-navigation/native';
 import React, { useCallback } from 'react';
 
 import { NUMBER_LINES_NAME_ALBUM } from '~/shared/constantes';
+import { ALBUM_SCREEN } from '~/shared/constantes/routes';
 
 import albumCategories from '../../mock/albumCategories';
 
 import * as Sty from './styles';
 
 export function FlatListAlbuns() {
+  const navigation = useNavigation();
+
   const renderAlbum = useCallback(({ item }) => {
     return (
-      <Sty.ContainerItem>
+      <Sty.ContainerItem
+        onPress={() => navigation.navigate(ALBUM_SCREEN as never)}
+      >
         <Sty.ImageAlbum source={{ uri: item.imageUri }} />
 
         <Sty.NameAlbum numberOfLines={NUMBER_LINES_NAME_ALBUM}>

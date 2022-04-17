@@ -10,6 +10,7 @@ export default {
     LIGHT_GRAY_2: '#B0B0B0',
     LIGHT_GRAY_3: '#A5A5A5',
     GRAY: '#646464',
+    GREEN: '#30ba61',
     DARK_GRAY: '#313439',
     DARK_GRAY_2: '#535353',
     DARK_GRAY_3: '#282828',
