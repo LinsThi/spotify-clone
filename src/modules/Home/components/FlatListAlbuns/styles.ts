@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const ContainerCategory = styled.View``;
 
-export const ContainerItem = styled.View`
+export const ContainerItem = styled.TouchableOpacity`
   max-width: 200px;
   margin-right: 20px;
 `;

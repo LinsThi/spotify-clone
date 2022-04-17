@@ -17,11 +17,12 @@ import { LibraryScreen } from '~/modules/Library/Views/LibraryScreen';
 import theme from '~/shared/theme';
 
 import {
-  HOME_SCREEN,
+  HOME_STACK,
   LIBRARY_SCREEN,
   PREMIUM_SCREEN,
   SEARCH_STACK,
 } from '../constantes/routes';
+import { HomeScreenStack } from './homeStack';
 import { SearchScreenStack } from './searchStack';
 
 const Tabs = createBottomTabNavigator();
@@ -38,7 +39,7 @@ export function RoutesApp() {
         <ThemeProvider theme={theme}>
           <NavigationContainer>
             <Tabs.Navigator
-              initialRouteName={HOME_SCREEN}
+              initialRouteName={HOME_STACK}
               screenOptions={{
                 headerShown: false,
                 tabBarLabelStyle: {
@@ -56,8 +57,8 @@ export function RoutesApp() {
               }}
             >
               <Tabs.Screen
-                component={HomeScreen}
-                name={HOME_SCREEN}
+                component={HomeScreenStack}
+                name={HOME_STACK}
                 options={{
                   tabBarIcon: ({ color }) => (
                     <Foundation name="home" size={35} color={color} />
