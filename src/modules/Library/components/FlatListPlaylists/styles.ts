@@ -29,5 +29,8 @@ export const InfoPlaylist = styled.Text`
 `;
 
 export const FlatList = styled.FlatList`
-  margin: 10px 10px 100px;
+  margin: 10px 10px
+    ${({ theme }) =>
+      theme.Sizes.BOTTOM_TAB_MENU_SIZE +
+      theme.Sizes.HEIGHT_MUSIC_PLAYING_SIZE}px;
 `;
