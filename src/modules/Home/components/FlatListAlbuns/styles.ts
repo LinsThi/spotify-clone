@@ -8,7 +8,8 @@ export const ContainerItem = styled.TouchableOpacity`
 `;
 
 export const FlatList = styled.FlatList`
-  margin-bottom: 100px;
+  margin-bottom: ${({ theme }) =>
+    theme.Sizes.BOTTOM_TAB_MENU_SIZE + theme.Sizes.HEIGHT_MUSIC_PLAYING_SIZE}px;
   margin-left: 10px;
 `;
 

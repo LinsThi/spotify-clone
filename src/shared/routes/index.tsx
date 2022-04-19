@@ -16,6 +16,7 @@ import { HomeScreen } from '~/modules/Home/Views/HomeScreen';
 import { LibraryScreen } from '~/modules/Library/Views/LibraryScreen';
 import theme from '~/shared/theme';
 
+import { MusicPlaying } from '../components/MusicPlaying';
 import {
   HOME_STACK,
   LIBRARY_SCREEN,
@@ -98,6 +99,8 @@ export function RoutesApp() {
               />
             </Tabs.Navigator>
           </NavigationContainer>
+
+          <MusicPlaying />
         </ThemeProvider>
       </KeyboardAvoidingView>
     </SafeAreaView>

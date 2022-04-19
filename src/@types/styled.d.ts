@@ -31,6 +31,7 @@ type FontSizesProps = {
 
 type SizesProps = {
   BOTTOM_TAB_MENU_SIZE: number;
+  HEIGHT_MUSIC_PLAYING_SIZE: number;
 };
 
 declare module 'styled-components' {
