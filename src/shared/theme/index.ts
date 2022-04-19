@@ -30,5 +30,6 @@ export default {
 
   Sizes: {
     BOTTOM_TAB_MENU_SIZE: 85,
+    HEIGHT_MUSIC_PLAYING_SIZE: 60,
   },
 };
