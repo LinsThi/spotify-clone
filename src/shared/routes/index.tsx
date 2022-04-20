@@ -12,8 +12,8 @@ import { KeyboardAvoidingView, Platform } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { ThemeProvider } from 'styled-components/native';
 
-import { HomeScreen } from '~/modules/Home/Views/HomeScreen';
 import { LibraryScreen } from '~/modules/Library/Views/LibraryScreen';
+import { PremiumScreen } from '~/modules/Premium/Views/PremiumScreen/PremiumScreen';
 import theme from '~/shared/theme';
 
 import { MusicPlaying } from '../components/MusicPlaying';
@@ -89,7 +89,7 @@ export function RoutesApp() {
                 }}
               />
               <Tabs.Screen
-                component={HomeScreen}
+                component={PremiumScreen}
                 name={PREMIUM_SCREEN}
                 options={{
                   tabBarIcon: ({ color }) => (
