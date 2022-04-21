@@ -17,7 +17,7 @@ export function SearchBar() {
     >
       <Feather name="search" size={35} color={Colors.BLACK} />
 
-      <Sty.SearchInput>Artistas, músicas ou podcasts</Sty.SearchInput>
+      <Sty.SearchInput>Artists, songs or podcasts</Sty.SearchInput>
     </Sty.Container>
   );
 }

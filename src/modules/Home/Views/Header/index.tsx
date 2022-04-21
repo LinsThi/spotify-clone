@@ -16,14 +16,14 @@ export function Header() {
 
     if (hoursDay > 5 && hoursDay <= 12) {
       setColorPeriode(Colors.DARK_PINK);
-      return 'Bom dia';
+      return 'Good Morning';
     }
     if (hoursDay > 12 && hoursDay <= 18) {
       setColorPeriode(Colors.DARK_BLUE);
-      return 'Boa tarde';
+      return 'Good afternoon';
     }
     setColorPeriode(Colors.LIGHT_BLUE);
-    return 'Boa noite';
+    return 'Good night';
   });
 
   return (

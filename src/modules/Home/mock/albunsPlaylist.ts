@@ -1,13 +1,13 @@
 export default [
   {
     id: 1,
-    title: 'As músicas que você mais ouviu em 2021',
+    title: 'The songs you listened to the most in 2021',
     albumLink:
       'https://cdn.discordapp.com/attachments/612375600924983308/959620573724553326/unknown.png',
   },
   {
     id: 2,
-    title: 'Músicas curtidas',
+    title: 'Liked songs',
     albumLink:
       'https://cdn.discordapp.com/attachments/612375600924983308/959620573724553326/unknown.png',
   },
