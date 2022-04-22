@@ -15,7 +15,7 @@
     "assetBundlePatterns": ["**/*"],
 
     "android": {
-      "package": "com.linsthi.spotify-clone",
+      "package": "com.linsthi.spotify_clone",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptative-icon.png",
         "backgroundColor": "#121212"
