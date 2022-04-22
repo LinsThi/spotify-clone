@@ -28,7 +28,7 @@
 
 - Clone the repository with the command
   ```sh
-  git clone https://github.com/LinsThi/desafio-sparta.git
+  git clone https://github.com/LinsThi/spotify-clone.git
   ```
 - To install all the dependencies used in the project, just run the command `yarn`.
 - The application can be started with `expo start`.
